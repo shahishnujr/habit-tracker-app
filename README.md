@@ -106,28 +106,8 @@ DB_URL=sqlite:///./ai-habit.db
 ## 🧪 Testing Instructions
 
 - Run **FastAPI Swagger UI** at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- Use the `/onboarding/submit` endpoint with example payloads
-- Check browser console / LocalStorage to verify habit persistence
-- Test regression by restarting frontend and verifying data reloading
+
 
 ---
 
-## 🧑‍💻 Developer Notes
 
-This project was developed as part of the **Software Engineering Laboratory (CSE302L)** coursework.  
-It demonstrates software design principles, modular development, testing, and integration of AI components within a full-stack system.
-
----
-
-## 🏷️ Author
-
-**Name:** Shahishnu J R  
-**Reg No:** 22BCE1046  
-**Institution:** Vellore Institute of Technology (VIT)  
-**Course:** Software Engineering Lab (CSE302L)
-
----
-
-## 📜 License
-
-This project is open-source for educational purposes.
