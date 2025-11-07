@@ -8,7 +8,7 @@ from .schemas import OnboardingSubmitRequest, OnboardingResponse, GeneratedHabit
 from .models import OnboardingAnswer
 import os
 
-app = FastAPI(title="JTJ Habit Backend - Onboarding")
+app = FastAPI(title="Habit Tracker Backend")
 
 # CORS for your Next.js frontend during dev
 origins = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
